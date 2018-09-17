@@ -1,0 +1,193 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+  
+div.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+}
+   
+
+  
+
+body {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+h1, p {
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  clear: both;
+  padding-top: 1.5em;
+}
+
+
+navabr 	{
+  display: inline;
+  width: 100%;
+  clear: both; 
+  top: 0;
+}
+navabr ul {
+  list-style-type: none;
+  height: 300px;
+}
+navbar ul li {
+  display: inline;
+  width: 12%;
+  text-align: center;
+  float: left;
+  text-transform: uppercase;
+  margin-left: em;  
+}
+navbar ul li a {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  background: #666666;
+  margin-right: .2em;
+  padding: 0 auto;
+  color: white;
+  border-radius: 3px;
+  display: center;
+  }
+
+  
+    /* Fun page */
+
+p.fun {
+    font-family: 'Codystar', cursive;
+  font-size: 2em;
+  line-height: 1.4em;
+}
+  
+h1.fun {
+  font-family: 'Righteous', cursive;
+  margin-top: 0;
+}
+  
+
+
+/*Fun color split complementery is used  */
+
+header.fun-color {
+  background: #A64AC9;
+  height: 150px;
+
+}
+section.fun-color {
+  background: #17E9E0;
+  height: 700px;
+}
+
+
+
+   /* Relaxed google-font*/
+
+p.relaxed {
+    
+  font-family: 'Yeon Sung', cursive;
+  font-size: 2em;
+  line-height: 1.4em;
+}
+h1.relaxed {
+  font-family: 'Source Code Pro', monospace;
+}
+   /* Relaxed color Analogous is used */
+
+header.relaxed-color {
+  background: #FCE181;
+  height: 150px;
+  
+}
+section.relaxed-color {
+  background: #FEF9C7;
+  height: 600px;
+}
+ul li a.relaxed-color-2 {
+  background: rgb(107, 59, 15);
+
+}
+
+  
+/* sophisticated google-font page */
+  
+p.sophisticated {
+  font-family: 'Playball', cursive;
+  line-height: 1.4em;
+  font-size: 2em;
+}
+h1.sophisticated {
+  font-family: 'Marck Script', cursive;
+  font-size: 3em;
+}
+  /* sophisticated color split complementary is used */
+
+section.sophisticated-color {
+  background: #5D5616;
+  height: 600px;
+  
+}
+header.sophisticated-color {
+  background: #B1A296;
+  height: 150px;
+   
+}
+
+
+   
+  
+  /* Corporated page */
+
+p.corporated {
+  font-family: 'Rokkitt', serif;
+  line-height: 1.4em;
+  font-size: 2em;
+}
+h1.corporated {
+  font-family: 'Josefin Sans', sans-serif;
+}
+  /* Corporated color Analogous is used */
+  
+header.corporated-color {
+  background: #2D5F5D;
+  height: 150px;
+}
+
+section.corporated-color {
+  background: #494B68;
+  height: 700px;
+}
+
+  /* Energetic page*/
+
+  
+p.energetic {
+  font-family: 'Emilys Candy', cursive;
+  line-height: 1.4em;
+  font-size: 2em;
+}
+h1.energetic {
+  font-family: 'Special Elite', cursive;
+}
+/* Energetic color Triad is used */
+
+header.energetic-color {
+  background: rgb(12, 42, 66);
+  height: 150px;
+}
+section.energetic-color {
+  background: rgb(228, 128, 36);
+  height: 600px;
+}
+ul.fun li.changeback:hover {
+  background: olive;
+}
+li.changeback:visited {
+  background: red;
+}
